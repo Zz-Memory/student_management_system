@@ -11,7 +11,7 @@
  Target Server Version : 80035
  File Encoding         : 65001
 
- Date: 05/07/2025 16:26:34
+ Date: 06/07/2025 15:58:05
 */
 create database student_mis;
 use student_mis;
@@ -1405,11 +1405,21 @@ CREATE TABLE `timetable`  (
   `year` int NOT NULL COMMENT '届时',
   `term` tinyint NOT NULL COMMENT '学期',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 41 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '教学周排课信息表' ROW_FORMAT = DYNAMIC;
+) ENGINE = InnoDB AUTO_INCREMENT = 51 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '教学周排课信息表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of timetable
 -- ----------------------------
+INSERT INTO `timetable` VALUES (1, 1, '电子信息工程', '22011', 2022, 1);
+INSERT INTO `timetable` VALUES (2, 2, '电子信息工程', '22011', 2022, 1);
+INSERT INTO `timetable` VALUES (3, 3, '电子信息工程', '22011', 2022, 1);
+INSERT INTO `timetable` VALUES (4, 4, '电子信息工程', '22011', 2022, 1);
+INSERT INTO `timetable` VALUES (5, 5, '电子信息工程', '22011', 2022, 1);
+INSERT INTO `timetable` VALUES (6, 6, '电子信息工程', '22011', 2022, 1);
+INSERT INTO `timetable` VALUES (7, 7, '电子信息工程', '22011', 2022, 1);
+INSERT INTO `timetable` VALUES (8, 8, '电子信息工程', '22011', 2022, 1);
+INSERT INTO `timetable` VALUES (9, 9, '电子信息工程', '22011', 2022, 1);
+INSERT INTO `timetable` VALUES (10, 10, '电子信息工程', '22011', 2022, 1);
 INSERT INTO `timetable` VALUES (11, 11, '物联网', '22001', 2022, 1);
 INSERT INTO `timetable` VALUES (12, 12, '物联网', '22001', 2022, 1);
 INSERT INTO `timetable` VALUES (13, 13, '物联网', '22001', 2022, 1);
@@ -1440,16 +1450,6 @@ INSERT INTO `timetable` VALUES (37, 37, '通信工程', '22031', 2022, 1);
 INSERT INTO `timetable` VALUES (38, 38, '通信工程', '22031', 2022, 1);
 INSERT INTO `timetable` VALUES (39, 39, '通信工程', '22031', 2022, 1);
 INSERT INTO `timetable` VALUES (40, 40, '通信工程', '22031', 2022, 1);
-INSERT INTO `timetable` VALUES (41, 41, '电子信息工程', '22011', 2022, 2);
-INSERT INTO `timetable` VALUES (42, 42, '电子信息工程', '22011', 2022, 2);
-INSERT INTO `timetable` VALUES (43, 43, '电子信息工程', '22011', 2022, 2);
-INSERT INTO `timetable` VALUES (44, 44, '电子信息工程', '22011', 2022, 2);
-INSERT INTO `timetable` VALUES (45, 45, '电子信息工程', '22011', 2022, 2);
-INSERT INTO `timetable` VALUES (46, 46, '电子信息工程', '22011', 2022, 2);
-INSERT INTO `timetable` VALUES (47, 47, '电子信息工程', '22011', 2022, 2);
-INSERT INTO `timetable` VALUES (48, 48, '电子信息工程', '22011', 2022, 2);
-INSERT INTO `timetable` VALUES (49, 49, '电子信息工程', '22011', 2022, 2);
-INSERT INTO `timetable` VALUES (50, 50, '电子信息工程', '22011', 2022, 2);
 
 -- ----------------------------
 -- Table structure for upload
@@ -1485,7 +1485,7 @@ CREATE TABLE `week`  (
   `saturday` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '星期六',
   `sunday` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '星期天',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 41 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '教学周表' ROW_FORMAT = DYNAMIC;
+) ENGINE = InnoDB AUTO_INCREMENT = 51 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '教学周表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of week
