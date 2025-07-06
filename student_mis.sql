@@ -11,7 +11,7 @@
  Target Server Version : 80035
  File Encoding         : 65001
 
- Date: 06/07/2025 15:58:05
+ Date: 06/07/2025 20:41:09
 */
 create database student_mis;
 use student_mis;
@@ -822,7 +822,7 @@ CREATE TABLE `student_course`  (
 -- ----------------------------
 -- Records of student_course
 -- ----------------------------
-INSERT INTO `student_course` VALUES (1, '3168901101', '2022011001', '数字电路基础', '75', 2.50, 4.00, 1, 2022);
+INSERT INTO `student_course` VALUES (1, '3168901101', '2022011001', '数字电路基础', '80', 3.00, 4.00, 1, 2022);
 INSERT INTO `student_course` VALUES (2, '3168901102', '2022011001', '数字电路基础', '76', 2.60, 4.00, 1, 2022);
 INSERT INTO `student_course` VALUES (3, '3168901103', '2022011001', '数字电路基础', '76', 2.60, 4.00, 1, 2022);
 INSERT INTO `student_course` VALUES (4, '3168901104', '2022011001', '数字电路基础', '78', 2.80, 4.00, 1, 2022);
@@ -1370,28 +1370,28 @@ CREATE TABLE `teacher_course`  (
 -- ----------------------------
 INSERT INTO `teacher_course` VALUES (1, '3890290', '3890290', '数字电路基础', '电子信息工程', '22011', 1, '2022011001');
 INSERT INTO `teacher_course` VALUES (2, '3890290', '3890290', '物联网工程导论', '物联网', '22001', 1, '2022021001');
-INSERT INTO `teacher_course` VALUES (3, '3890290', '3890290', '计算机网络技术', '计算机', '22021', 1, '2022031001');
-INSERT INTO `teacher_course` VALUES (4, '3890290', '3890290', '高频电子线路', '通信工程', '22031', 1, '2022041001');
+INSERT INTO `teacher_course` VALUES (3, '3890290', '3890290', '计算机网络技术', '计算机', '22031', 1, '2022031001');
+INSERT INTO `teacher_course` VALUES (4, '3890290', '3890290', '高频电子线路', '通信工程', '22041', 1, '2022041001');
 INSERT INTO `teacher_course` VALUES (7, '3890281', '3890281', '大学物理', '电子信息工程', '22011', 1, '2022011002');
 INSERT INTO `teacher_course` VALUES (8, '3890281', '3890281', '物联网安全', '物联网', '22001', 1, '2022021002');
-INSERT INTO `teacher_course` VALUES (9, '3890281', '3890281', '网络与通信', '计算机', '22021', 1, '2022031002');
-INSERT INTO `teacher_course` VALUES (10, '3890281', '3890281', '光纤通讯', '通信工程', '22031', 1, '2022041002');
+INSERT INTO `teacher_course` VALUES (9, '3890281', '3890281', '网络与通信', '计算机', '22031', 1, '2022031002');
+INSERT INTO `teacher_course` VALUES (10, '3890281', '3890281', '光纤通讯', '通信工程', '22041', 1, '2022041002');
 INSERT INTO `teacher_course` VALUES (11, '3890270', '3890270', '线性代数', '电子信息工程', '22011', 1, '2022011003');
 INSERT INTO `teacher_course` VALUES (12, '3890270', '3890270', '现代通信技术', '物联网', '22001', 1, '2022021003');
-INSERT INTO `teacher_course` VALUES (13, '3890270', '3890270', '计算机安全', '计算机', '22021', 1, '2022031003');
-INSERT INTO `teacher_course` VALUES (14, '3890270', '3890270', '移动通讯', '通信工程', '22031', 1, '2022041003');
+INSERT INTO `teacher_course` VALUES (13, '3890270', '3890270', '计算机安全', '计算机', '22031', 1, '2022031003');
+INSERT INTO `teacher_course` VALUES (14, '3890270', '3890270', '移动通讯', '通信工程', '22041', 1, '2022041003');
 INSERT INTO `teacher_course` VALUES (15, '3890261', '3890261', '复变函数', '电子信息工程', '22011', 1, '2022011004');
 INSERT INTO `teacher_course` VALUES (16, '3890261', '3890261', '现代传感器技术', '物联网', '22001', 1, '2022021005');
-INSERT INTO `teacher_course` VALUES (17, '3890261', '3890261', '算法与数据结构', '计算机', '22021', 1, '2022031004');
-INSERT INTO `teacher_course` VALUES (18, '3890261', '3890261', '电路分析', '通信工程', '22031', 1, '2022041004');
+INSERT INTO `teacher_course` VALUES (17, '3890261', '3890261', '算法与数据结构', '计算机', '22031', 1, '2022031004');
+INSERT INTO `teacher_course` VALUES (18, '3890261', '3890261', '电路分析', '通信工程', '22041', 1, '2022041004');
 INSERT INTO `teacher_course` VALUES (19, '3890251', '3890251', '模拟电子线路', '电子信息工程', '22011', 1, '2022011005');
 INSERT INTO `teacher_course` VALUES (20, '3890251', '3890251', '信号与系统概论', '物联网', '22001', 1, '2022021006');
-INSERT INTO `teacher_course` VALUES (21, '3890251', '3890251', '多媒体信息处理', '计算机', '22021', 1, '2022031005');
-INSERT INTO `teacher_course` VALUES (22, '3890251', '3890251', '程控交换技术', '通信工程', '22031', 1, '2022041005');
+INSERT INTO `teacher_course` VALUES (21, '3890251', '3890251', '多媒体信息处理', '计算机', '22031', 1, '2022031005');
+INSERT INTO `teacher_course` VALUES (22, '3890251', '3890251', '程控交换技术', '通信工程', '22041', 1, '2022041005');
 INSERT INTO `teacher_course` VALUES (23, '3890240', '3890240', '信号与系统', '电子信息工程', '22011', 1, '2022011006');
 INSERT INTO `teacher_course` VALUES (24, '3890240', '3890240', '无线传感器网络', '物联网', '22001', 1, '2022021004');
-INSERT INTO `teacher_course` VALUES (25, '3890240', '3890240', '计算机组成原理', '计算机', '22021', 1, '2022031006');
-INSERT INTO `teacher_course` VALUES (26, '3890240', '3890240', '光纤通讯', '通信工程', '22031', 1, '2022041006');
+INSERT INTO `teacher_course` VALUES (25, '3890240', '3890240', '计算机组成原理', '计算机', '22031', 1, '2022031006');
+INSERT INTO `teacher_course` VALUES (26, '3890240', '3890240', '光纤通讯', '通信工程', '22041', 1, '2022041006');
 
 -- ----------------------------
 -- Table structure for timetable
